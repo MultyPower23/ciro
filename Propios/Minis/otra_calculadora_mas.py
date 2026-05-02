@@ -1,5 +1,9 @@
 import math
 
+# =========================
+# ------ OPERACIONES ------
+# =========================
+
 
 def suma(*valor):
     resultado: float = 0
@@ -101,10 +105,15 @@ def factorial(tope: int):
         print("[ERROR]: El proceso es demasiado grande para realizarlo")
 
 
+# ========================
+# --------- MAIN ---------
+# ========================
+
+
 def main():
     print("BIENVENIDO A LA CALCULADORA")
     while True:
-        print("\nElige el proceso:" "")
+        print("\nElige el proceso:" "1. Sumar" "2. Restar" "3.")
 
 
-# prueba del commit
+main()
