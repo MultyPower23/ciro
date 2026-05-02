@@ -1,0 +1,12 @@
+[
+    {
+        "nombre": "zadi",
+        "area": "Ingenieria",
+        "puntaje": 6
+    },
+    {
+        "nombre": "ciro",
+        "area": "Matematicas",
+        "puntaje": 10
+    }
+]
