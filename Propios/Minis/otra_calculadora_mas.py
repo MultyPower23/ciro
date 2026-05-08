@@ -104,6 +104,9 @@ def factorial(tope: int):
     except OverflowError:
         print("[ERROR]: El proceso es demasiado grande para realizarlo")
 
+def tangente(x):
+    return(math.tan(x))
+
 
 # ========================
 # --------- MAIN ---------
