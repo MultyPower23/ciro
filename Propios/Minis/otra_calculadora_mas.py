@@ -104,8 +104,9 @@ def factorial(tope: int):
     except OverflowError:
         print("[ERROR]: El proceso es demasiado grande para realizarlo")
 
+
 def tangente(x):
-    return(math.tan(x))
+    return math.tan(x)
 
 
 # ========================
@@ -116,7 +117,27 @@ def tangente(x):
 def main():
     print("BIENVENIDO A LA CALCULADORA")
     while True:
-        print("\nElige el proceso:" "1. Sumar" "2. Restar" "3.")
+        print(
+            "\nPROCESOS DISPONIBLES"
+            "\n1. Sumar"
+            "\n2. Restar"
+            "\n3. Multiplicación"
+            "\n4. Divisón"
+            "\n4. Potencia"
+            "\n4. Raiz"
+            "\n4. Factorial"
+        )
+
+        print(
+            "\nPROCESOS DISPONIBLES"
+            "\n1. Sumar"
+            "\n2. Restar"
+            "\n3. Multiplicación"
+            "\n4. Divisón"
+            "\n4. Potencia"
+            "\n4. Raiz"
+            "\n4. Factorial"
+        )
 
 
 main()
